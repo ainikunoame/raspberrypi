@@ -1,3 +1,11 @@
+## apt
+apt(advanced packaging tool)はLinuxの一部で使われているパッケージ管理ソフトで、
+一般のソフトウェアをインストールしたり、バージョンアップしたり、削除したりするコマンドです。
+また、あるソフトウェアをインストールする時には、そのソフトウェアだけでなく、必要なソフトウェアを調べてインストールしてくれます。
+pythonをインストールしたり、バージョンアップしたりするときにはaptを使います。
+AndroidのGoogle play、iphoneのapp storeのようなもの。
+
+
 ## pythonライブラリ導入時のapt, pipの違いについて
 
 ### インストール先のパス
@@ -34,3 +42,17 @@ print(sys.path)
 
 #### sudo apt install → pip install, sudo pip install → pip install
 入る。使う時は`pip install`が最優先。
+
+## aptコマンド
+|コマンド     |内容     | 
+| --- | --- | 
+|sudo apt update     |パッケージ一覧を更新（リポジトリ追加・削除時には必ず実行すること）     | 
+|sudo apt upgrade     |パッケージを更新（通常のパッケージ更新時はこのコマンドを使用する）     | 
+|     |     | 
+|     |     | 
+|     |     | 
+|     |     | 
+|     |     | 
+|     |     | 
+|     |     | 
+
